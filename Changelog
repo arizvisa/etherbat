@@ -1,0 +1,217 @@
+------------------------------------------------------------
+revno: 25
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Thu 2007-05-31 17:00:14 +0200
+message:
+  Version bumped to 1.0.1
+------------------------------------------------------------
+revno: 24
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Thu 2007-05-31 16:59:36 +0200
+message:
+  Minor fix in tests.html
+------------------------------------------------------------
+revno: 23
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Thu 2007-05-31 16:02:07 +0200
+message:
+  Allow to link with libnet statically; added directions to README
+------------------------------------------------------------
+revno: 22
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Thu 2007-05-31 12:27:00 +0200
+message:
+  Libs and cflags are now set at runtime, Makefile fixes
+------------------------------------------------------------
+revno: 21
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Thu 2007-05-31 12:24:10 +0200
+message:
+  Whitespace removed
+------------------------------------------------------------
+revno: 20
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Thu 2007-05-31 11:26:59 +0200
+message:
+  Requirements updated
+------------------------------------------------------------
+revno: 19
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Tue 2007-05-29 11:02:33 +0200
+message:
+  Documentation fixes
+------------------------------------------------------------
+revno: 18
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Mon 2007-05-28 20:24:00 +0200
+message:
+  Typos fixed
+------------------------------------------------------------
+revno: 17
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Mon 2007-05-28 18:10:30 +0200
+message:
+  Added link to the homepage
+------------------------------------------------------------
+revno: 16
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Mon 2007-05-28 18:05:10 +0200
+message:
+  Minor updates
+------------------------------------------------------------
+revno: 15
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Mon 2007-05-28 16:03:33 +0200
+message:
+  Minor README update
+------------------------------------------------------------
+revno: 14
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Mon 2007-05-28 13:26:30 +0200
+message:
+  Tarball generation infrastructure added
+------------------------------------------------------------
+revno: 13
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Sun 2007-05-27 23:38:01 +0200
+message:
+  README written; pcap static option in Makefile
+------------------------------------------------------------
+revno: 12
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Sat 2007-05-26 14:25:34 +0200
+message:
+  Allow user to specify timeouts
+------------------------------------------------------------
+revno: 11
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Fri 2007-05-25 21:28:05 +0200
+message:
+  Tests documentation finished; Windows warning display
+------------------------------------------------------------
+revno: 10
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Fri 2007-05-25 12:43:49 +0200
+message:
+  Tests description
+------------------------------------------------------------
+revno: 9
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Fri 2007-05-25 10:36:43 +0200
+message:
+  Message in case of no reply to p1a
+------------------------------------------------------------
+revno: 8
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Tue 2007-05-08 23:09:39 +0200
+message:
+  Merge from devel repository
+    ------------------------------------------------------------
+    merged: etherbat@cryptonix.org-20070508210237-144bfe442e066a03
+    committer: Pawel Pokrywka <etherbat@cryptonix.org>
+    branch nick: etherbat-testc
+    timestamp: Tue 2007-05-08 23:02:37 +0200
+    message:
+      Version bumped to 1.0.0
+    ------------------------------------------------------------
+    merged: etherbat@cryptonix.org-20070508210129-a86ba0640ceb7875
+    committer: Pawel Pokrywka <etherbat@cryptonix.org>
+    branch nick: etherbat-testc
+    timestamp: Tue 2007-05-08 23:01:29 +0200
+    message:
+      Test A works, other changes
+      - new and shiny TestA
+      - method for automatically building ArpReply based on Request and sender
+      - TestB fix when jabber detected in p3a
+      - minor fixes
+    ------------------------------------------------------------
+    merged: etherbat@cryptonix.org-20070508174120-c7005f3552942fa3
+    committer: Pawel Pokrywka <etherbat@cryptonix.org>
+    branch nick: etherbat-testc
+    timestamp: Tue 2007-05-08 19:41:20 +0200
+    message:
+      Many changes
+      - jabber testing moved to separate method
+      - duplicate frames detection removed for now
+      - mac resolving moved from Host to MacResolver class
+      - TestA broken, will be fixed later
+      - separate method for test initialization and performing
+      - test initialization takes one more parameter - host b
+      - set_flag/get_flag in Test class
+      - Host class refactored, more needs to be done
+      - TestSequence class instead of previous non-OO mess
+      - main program improvements
+    ------------------------------------------------------------
+    merged: etherbat@cryptonix.org-20070507171140-832bff32b1de199f
+    committer: Pawel Pokrywka <etherbat@cryptonix.org>
+    branch nick: etherbat-testc
+    timestamp: Mon 2007-05-07 19:11:40 +0200
+    message:
+      Branch test
+------------------------------------------------------------
+revno: 7
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Sun 2007-05-06 21:33:48 +0200
+message:
+  Updated .bzrignore
+------------------------------------------------------------
+revno: 6
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Sun 2007-05-06 15:37:47 +0200
+message:
+  Make install target
+------------------------------------------------------------
+revno: 5
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Sat 2007-05-05 20:19:59 +0200
+message:
+  Optimistic mode, test logic fixes
+------------------------------------------------------------
+revno: 4
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Sat 2007-05-05 19:46:24 +0200
+message:
+  Cosmetic fix
+------------------------------------------------------------
+revno: 3
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Sat 2007-05-05 19:44:53 +0200
+message:
+  Minor fixes
+------------------------------------------------------------
+revno: 2
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Sat 2007-05-05 19:29:58 +0200
+message:
+  Test repetition feature, test analysis rewrite
+------------------------------------------------------------
+revno: 1
+committer: Pawel Pokrywka <etherbat@cryptonix.org>
+branch nick: etherbat
+timestamp: Sat 2007-05-05 17:09:28 +0200
+message:
+  Initial commit
